@@ -1,22 +1,23 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import learningSvg from '../assets/learning.svg';
 
 const Home = () => {
   return (
-    <div className="home-container">
-      <div className="content-wrapper">
-        <div className="content-text">
-          <h2 className="home-title">Welcome to Make Your Career</h2>
-          <p className="home-description">
+    <div className="container d-flex justify-content-center align-items-center min-vh-90 py-5">
+      <div className="row w-100">
+        <div className="col-lg-6 d-flex flex-column justify-content-center">
+          <h2 className="txt-primary mb-4">Welcome to Make Your Career</h2>
+          <p className="lead text-secondary mb-4">
             Explore our lessons and quizzes to enhance your skills and track your progress.
           </p>
-          <div className="home-buttons">
-            <a href="/lessons" className="home-button">Start Learning</a>
-          </div>
+          <a href="/lessons" className="btn btn-primary btn-lg w-50">
+            Start Learning
+          </a>
         </div>
-        <div className="content-image">
-          <img src={learningSvg} alt="Learning" className="home-image" />
+        <div className="col-lg-6 text-center">
+          <img src={learningSvg} alt="Learning" className="img-fluid" />
         </div>
       </div>
     </div>
