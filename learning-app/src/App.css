@@ -1,0 +1,210 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+  
+.header {
+  background-color: #8d5aad;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.header-title {
+  font-size: 1.70em;
+  margin: 0 70px;
+}
+
+.header-nav {
+  margin-top: 10px;
+  margin-right: 70px;
+}
+
+.nav-list {
+  margin-right: 20px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: #8d5aad;
+  padding: 7px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: ease 0.6s;
+}
+
+/* General home styles */
+.home-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+}
+
+.content-wrapper {
+  
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.content-text {
+  margin-top: 10%;
+  text-align: left;
+  flex: 1;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.home-title {
+  color: #8d5aad;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.home-buttons {
+  display: flex;
+  text-align: left;
+}
+
+.home-button {
+  background-color: #8d5aad;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.home-button:hover {
+  background-color: #5b4379;
+}
+
+.content-image {
+  flex: 1;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.home-image {
+  
+  max-width: 100%;
+  height: auto;
+}
+
+  
+  footer {
+    background-color: #4a148c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+
+.progressContainer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.progressContainer h2 {
+  color: #6a1b9a;
+}
+
+.quizContainer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quizContainer h2 {
+  color: #6a1b9a;
+}
+
+.quizContainer p {
+  color: rgb(101, 101, 101);
+}
+
+.quizContainer button {
+  background-color: #6a1b9a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lessonContainer {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lessonContainer h2 {
+  color: #6a1b9a;
+}
+
+.lessonContainer p {
+  color: rgb(101, 101, 101);
+}
+
+.lessonListContainer {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lessonListContainer h2 {
+  color: #6a1b9a;
+}
+
+.lessonListContainer p {
+  color: rgb(101, 101, 101);
+}
+.lessonListContainer a {
+  color: rgb(101, 101, 101);
+  text-decoration: none;
+}
+
+.lessonListContainer a:hover {
+  color: #6a1b9a;
+  text-decoration: underline;
+}
