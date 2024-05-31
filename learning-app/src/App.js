@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import LessonList from './components/LessonList';
+import Courses from './components/Courses';
 import Lesson from './components/Lesson';
 import Home from './components/Home';
 // import Quiz from './components/Quiz';
@@ -21,11 +21,11 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/lesson/:id" element={<Lesson />} />
+          <Route path="/Lesson/:id" element={<Lesson />} />
           {/* <Route path="/quiz" element={<Quiz />} /> */}
           <Route path="/progress" element={<Progress />} />
         </Routes>
-        <LessonList />
+        <Courses />
         <Footer />
       </AppContainer>
     </Router>
