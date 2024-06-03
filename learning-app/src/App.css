@@ -59,14 +59,22 @@ body {
   background-color: #6a1b9a !important;
 }
 
+.bac-primary {
+  background-color: #8d5aad !important;
+}
+
 
 
 .card-img-top {
   height: 300px !important;
   object-fit: cover;
 }
+
+.bg-light {
+  background-color: #ccc !important;
+}
   footer {
-    background-color: #4a148c;
+    background-color: #8d5aad;
     color: #fff;
     padding: 10px 0;
     text-align: center;

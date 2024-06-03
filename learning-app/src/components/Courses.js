@@ -26,8 +26,8 @@ const course = [
 
 const Courses = () => {
     return (
-        <div className="container mt-5 mb-5">
-            <h2 className="mb-4 text-center txt-primary fw-bold mb-5 fw-3">Courses</h2>
+        <div className="container mt-5 mb-5 p-5">
+            <h2 className="mb-4 text-center txt-primary fw-bolder mb-5 fs-1">Courses</h2>
             <div className="row">
                 {course.map(course => (
                     <div className="col-md-4 mb-4 " key={course.id}>
@@ -35,8 +35,8 @@ const Courses = () => {
                             <img src={WebJpg} className="card-img-top" alt={course.title} />
                             <div className="card-body text-center">
                                 <h3 className="card-title">
-                                    <a href={`/courses/${course.id}`} className="text-decoration-none txt-primary fw-bold">{course.title} For Beginner</a>
-                                    <p className="mt-4 fs-5"> <span className="fw-bold txt-primary fs-7">Instructor :</span> {course.instructor}</p>
+                                    <a href={`/courses/${course.id}`} className="text-decoration-none  fs-5 txt-primary fw-bold">{course.title} For Beginner</a>
+                                    <p className="mt-4 fs-5"> <span className=" txt-primary fs-7">Instructor :</span> {course.instructor}</p>
                                 </h3>
                                 <a href="#" class="btn btn-primary mt-2">Register</a>
                             </div>
